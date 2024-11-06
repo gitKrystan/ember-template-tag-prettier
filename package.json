@@ -27,6 +27,7 @@
   "main": "dist/prettier-plugin-ember-template-tag.js",
   "scripts": {
     "build": "tsc && vite build",
+    "prepack": "pnpm build",
     "preexample": "vite build",
     "example": "pnpm preexample && cd examples && pnpm example",
     "lint": "concurrently \"pnpm:lint:*(!fix)\" --names \"lint:\" --prefix-colors auto",
