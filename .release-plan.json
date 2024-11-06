@@ -2,16 +2,16 @@
   "solution": {
     "prettier-plugin-ember-template-tag": {
       "impact": "patch",
-      "oldVersion": "2.0.2",
-      "newVersion": "2.0.3",
+      "oldVersion": "2.0.3",
+      "newVersion": "2.0.4",
       "constraints": [
         {
           "impact": "patch",
-          "reason": "Appears in changelog section :house: Internal"
+          "reason": "Appears in changelog section :bug: Bug Fix"
         }
       ],
       "pkgJSONPath": "./package.json"
     }
   },
-  "description": "## Release (2024-11-06)\n\nprettier-plugin-ember-template-tag 2.0.3 (patch)\n\n#### :house: Internal\n* `prettier-plugin-ember-template-tag`\n  * [#283](https://github.com/ember-tooling/prettier-plugin-ember-template-tag/pull/283) Remove changelog customizations ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n  * [#281](https://github.com/ember-tooling/prettier-plugin-ember-template-tag/pull/281) Setup release-plan ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n  * [#280](https://github.com/ember-tooling/prettier-plugin-ember-template-tag/pull/280) Update repo paths in package.json ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n  * [#267](https://github.com/ember-tooling/prettier-plugin-ember-template-tag/pull/267) Bump content-tag to v2 ([@SergeAstapov](https://github.com/SergeAstapov))\n\n#### Committers: 2\n- Sergey Astapov ([@SergeAstapov](https://github.com/SergeAstapov))\n- [@NullVoxPopuli](https://github.com/NullVoxPopuli)\n"
+  "description": "## Release (2024-11-06)\n\nprettier-plugin-ember-template-tag 2.0.4 (patch)\n\n#### :bug: Bug Fix\n* `prettier-plugin-ember-template-tag`\n  * [#284](https://github.com/ember-tooling/prettier-plugin-ember-template-tag/pull/284) Add prepack so that this library builds before publish ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n\n#### Committers: 1\n- [@NullVoxPopuli](https://github.com/NullVoxPopuli)\n"
 }

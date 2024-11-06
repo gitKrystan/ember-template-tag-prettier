@@ -2,6 +2,17 @@
 
 ## Release (2024-11-06)
 
+prettier-plugin-ember-template-tag 2.0.4 (patch)
+
+#### :bug: Bug Fix
+* `prettier-plugin-ember-template-tag`
+  * [#284](https://github.com/ember-tooling/prettier-plugin-ember-template-tag/pull/284) Add prepack so that this library builds before publish ([@NullVoxPopuli](https://github.com/NullVoxPopuli))
+
+#### Committers: 1
+- [@NullVoxPopuli](https://github.com/NullVoxPopuli)
+
+## Release (2024-11-06)
+
 prettier-plugin-ember-template-tag 2.0.3 (patch)
 
 #### :house: Internal
