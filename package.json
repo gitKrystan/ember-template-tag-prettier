@@ -19,11 +19,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:gitKrystan/prettier-plugin-ember-template-tag.git"
+    "url": "git@github.com:ember-tooling/prettier-plugin-ember-template-tag.git"
   },
-  "homepage": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag",
+  "homepage": "https://github.com/ember-tooling/prettier-plugin-ember-template-tag",
   "bugs": {
-    "url": "https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues"
+    "url": "https://github.com/ember-tooling/prettier-plugin-ember-template-tag/issues"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
