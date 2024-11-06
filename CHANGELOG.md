@@ -1,5 +1,20 @@
 # Changelog
 
+## Release (2024-11-06)
+
+prettier-plugin-ember-template-tag 2.0.3 (patch)
+
+#### :house: Internal
+* `prettier-plugin-ember-template-tag`
+  * [#283](https://github.com/ember-tooling/prettier-plugin-ember-template-tag/pull/283) Remove changelog customizations ([@NullVoxPopuli](https://github.com/NullVoxPopuli))
+  * [#281](https://github.com/ember-tooling/prettier-plugin-ember-template-tag/pull/281) Setup release-plan ([@NullVoxPopuli](https://github.com/NullVoxPopuli))
+  * [#280](https://github.com/ember-tooling/prettier-plugin-ember-template-tag/pull/280) Update repo paths in package.json ([@NullVoxPopuli](https://github.com/NullVoxPopuli))
+  * [#267](https://github.com/ember-tooling/prettier-plugin-ember-template-tag/pull/267) Bump content-tag to v2 ([@SergeAstapov](https://github.com/SergeAstapov))
+
+#### Committers: 2
+- Sergey Astapov ([@SergeAstapov](https://github.com/SergeAstapov))
+- [@NullVoxPopuli](https://github.com/NullVoxPopuli)
+
 
 
 
