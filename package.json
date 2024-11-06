@@ -10,44 +10,41 @@
     "prettier",
     "template tag"
   ],
-  "author": {
-    "email": "kmenne@gmail.com",
-    "name": "Krystan HuffMenne"
-  },
-  "type": "module",
-  "main": "dist/prettier-plugin-ember-template-tag.js",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:ember-tooling/prettier-plugin-ember-template-tag.git"
-  },
   "homepage": "https://github.com/ember-tooling/prettier-plugin-ember-template-tag",
   "bugs": {
     "url": "https://github.com/ember-tooling/prettier-plugin-ember-template-tag/issues"
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ember-tooling/prettier-plugin-ember-template-tag.git"
   },
+  "license": "MIT",
+  "author": {
+    "name": "Krystan HuffMenne",
+    "email": "kmenne@gmail.com"
+  },
+  "type": "module",
+  "main": "dist/prettier-plugin-ember-template-tag.js",
   "scripts": {
     "build": "tsc && vite build",
+    "changelog": "release-it --changelog",
     "preexample": "vite build",
     "example": "pnpm preexample && cd examples && pnpm example",
     "lint": "concurrently \"pnpm:lint:*(!fix)\" --names \"lint:\" --prefix-colors auto",
-    "lint:fix": "concurrently \"pnpm:lint:*:fix\" --names \"fix:\" --prefix-colors auto",
     "lint:eslint": "eslint . --cache",
     "lint:eslint:fix": "eslint . --fix",
+    "lint:fix": "concurrently \"pnpm:lint:*:fix\" --names \"fix:\" --prefix-colors auto",
     "lint:prettier": "prettier --check .",
     "lint:prettier:fix": "prettier --write .",
     "lint:ts": "tsc --project tsconfig.lint.json",
-    "changelog": "release-it --changelog",
     "release": "release-it",
     "release:ci": "release-it --ci",
     "release:debug": "release-it --verbose --dry-run",
-    "test:all": "concurrently \"pnpm:test:run\" \"pnpm:test:example\" --prefix-colors auto",
     "test": "vitest",
+    "test:all": "concurrently \"pnpm:test:run\" \"pnpm:test:example\" --prefix-colors auto",
     "test:example": "pnpm preexample && cd examples && pnpm test",
-    "test:ui": "vitest --ui",
-    "test:run": "vitest run"
+    "test:run": "vitest run",
+    "test:ui": "vitest --ui"
   },
   "dependencies": {
     "@babel/core": "^7.23.6",
@@ -76,6 +73,7 @@
     "eslint-plugin-vitest": "^0.3.20",
     "prettier-plugin-jsdoc": "^1.3.0",
     "release-it": "^16.3.0",
+    "release-plan": "^0.9.0",
     "typescript": "^5.3.3",
     "vite": "^5.0.10",
     "vitest": "^1.1.0"
@@ -83,12 +81,16 @@
   "peerDependencies": {
     "prettier": ">= 3.0.0"
   },
+  "packageManager": "pnpm@8.13.1",
   "engines": {
     "node": "18.* || >= 20"
   },
   "volta": {
     "node": "18.19.0",
     "pnpm": "8.13.1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   },
   "changelog": {
     "labels": {
@@ -99,6 +101,5 @@
       "internal": ":house: Internal",
       "dependencies": ":robot: Dependencies"
     }
-  },
-  "packageManager": "pnpm@8.13.1"
+  }
 }
